@@ -1,0 +1,58 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("pexels-photo-1042423.webp");
+    }
+    .form-container {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background-image: url("pexels-photo-604684.webp");
+      border-radius: 10px;
+      
+    }
+
+    
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: aliceblue;
+    }
+
+    .form-section {
+      background-color: rgba(52, 243, 218, 0.986);
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .form-section p {
+      color: #f3eded;
+      margin: 0;
+    }
+
+    input[type="text"], input[type="password"], select {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 5px;
+      background-color: #cef00d;
+      color: rgb(248, 9, 9);
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #beee12;
+    }
+ 

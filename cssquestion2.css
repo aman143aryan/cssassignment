@@ -1,0 +1,45 @@
+/*The universal selector (*) selects all HTML elements on the page.*/
+*{
+ margin: 0;
+ background-color :aqua ;
+  text-align: justify;
+  justify-content: space-evenly;
+}
+
+
+
+h1{
+  color:white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: black;
+  font-weight: 700;
+  padding-top: 10px; 
+
+  
+} 
+
+  /* element-	p	-Selects all <p> elements    */
+p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:yellow;
+    padding-top: 10px; 
+}
+
+/* class selector : .class	-.intro	Selects all elements with class="intro" */
+.css{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:brown;
+    padding-top: 10px; 
+
+}
+/* id selector: #id	-firstname-Selects the element with id="firstname"   */
+#css-id{
+
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:green;
+    padding-top: 10px; 
+
+}
